@@ -29,6 +29,7 @@ func handleIndex(w http.ResponseWriter, r *http.Request) {
 	todos := Todos{
 		Todo{Name: "Write presentation"},
 		Todo{Name: "Host meetup"},
+		Todo{Name: "Some other todo"},
 	}
 
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
